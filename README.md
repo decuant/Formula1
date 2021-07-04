@@ -1,6 +1,6 @@
 # Project Description
 
-## 2.0.0.1 (04-Jan-2019)
+## 2.0.0.1 (04-Jul-2021)
 
 **Formula1** is a short **.Net** application to search for files in multiple folders and perform a text grep over each file returned by the scan.
 
@@ -15,13 +15,11 @@ Calls grep for each file found.
 
 Divide options using ";", like ```h.*;cpp.*```
 
-Double click on "File Filters" or "Grep Text" will open the History dialog for each. Here you can pick an old test.
+Double click on "Filter" or "Grep" text box will open the History dialog for each. Here you can pick an old test.
 
 Clicking a file on the list will perform a new grep over it, thus changing the grep text and clicking again on the file will refresh the view with new results.
 
 Byte alignment is provided as exclusive single option.
-
-
 
 
 ## Installation
