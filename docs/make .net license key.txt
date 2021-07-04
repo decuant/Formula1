@@ -1,45 +1,9 @@
 
-Spostarsi nella directory di progetto ed eseguire entrambi i comandi.
-
-
-==================================
-
-Esempio con directX
-
-csc /r:System.dll /r:System.Windows.Forms.dll /r:System.Drawing.dll /r:"C:\WINDOWS\Microsoft.NET\DirectX for Managed Code\1.0.2902.0\Microsoft.DirectX.DirectInput.dll" /out:JoystickController.dll /t:library JoystickController.cs
-
-sn -k JoyStickControl_Key.snk
-
-==================================
-
-csc /r:System.dll /r:System.Windows.Forms.dll /r:System.Drawing.dll /out:UECheck.dll /t:library UECheck.cs
-
-sn -k UECheck_Key.snk
-
-
-==================================
-
-csc /r:System.dll /r:System.Windows.Forms.dll /r:System.dll /out:LoggingLibrary.dll /t:library Logging.cs
-
-sn -k LoggingLibrary.snk
-
-
-==================================
-
-csc /r:System.dll /r:System.Windows.Forms.dll /r:System.Drawing.dll /r:Bin\Release\Interop.DMCSERVERLib.dll /out:GalilInterface.dll /t:library GInterface.cs
-
-sn -k GalilInterface.snk
-
-
-
-
-
+vcvars64.bat in amd
 
 sn -k Formula1.snk
 
-sn -p Formula1.snk public.snk
-
-pwd used is amelia
+pwd used is 'empty'
 
 
 -------------------------------------------------------
